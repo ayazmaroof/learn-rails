@@ -14,3 +14,10 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore DS store files
+/app/controllers/.DS_Store
+/app/helpers/.DS_Store
+/app/models/.DS_Store
+/app/views/.DS_Store
+/app/views/visitors/.DS_Store
