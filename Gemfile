@@ -48,3 +48,8 @@ group :development do
 	gem 'rails_layout'
 	gem 'annotate'
 end
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+	gem 'thin'
+end
